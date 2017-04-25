@@ -1,17 +1,19 @@
 {
-  "name": "lemon",
-  "version": "1.0.0",
-  "description": "A Social Website",
-  "main": "./server/main.js",
-  "dependencies": {
-    "chokidar": "^1.6.1",
-    "koa": "^2.2.0",
-    "koa-server": "^1.2.2"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "lemon",
+    "version": "1.0.0",
+    "description": "Sample Application",
+    "main": "./server/main.js",
+    "dependencies": {
+        "chokidar": "^1.6.1",
+        "koa": "^2.2.0",
+        "koa-server": "^1.2.2"
+    },
+    "devDependencies": {
+        "decache": "^4.1.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
 }
